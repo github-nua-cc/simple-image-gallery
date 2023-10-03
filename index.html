@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+    <style>
+        h1, h4{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h1{
+            font-size: 50px;
+            line-height: 50px;
+            font-weight: 100;
+            color:rgb(51, 39, 50)
+        }
+        h4{
+            font-size: 25px;
+            line-height: 25px;
+            font-weight: 400;
+            color:rgb(156, 94, 94)
+        }
+        p{
+            width:180px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: solid 1px;
+            
+        }
+        #gallery-container{
+            display: inline-block;
+            vertical-align: top;
+            font-size: 0;
+            
+        }
+        .image-container{
+            display: inline-block;
+            vertical-align: top;
+            margin: 5px;
+   
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is a simple rock gallery</h1>
+    <h4>I really like rocks, especially in landscape shots</h4>
+    <div id="gallery-container">
+        <div class="image-container">
+            <img src="img/rocks1.jpg">
+            <p>Rocks in a lake, close-up</p>
+        </div>
+        <div class="image-container">
+            <img src="img/rocks2.jpg">
+            <p>Rocks at sunset, what could be better?</p>
+        </div>
+        <div class="image-container">
+            <img src="img/rocks3.jpg">
+            <p>This one might be sunrise, I'm not sure!</p>
+        </div>
+    </div>
+</body>
+
+</html>
